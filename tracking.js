@@ -3,7 +3,7 @@ const params = new URLSearchParams(window.location.search);
 const trackingNumber = params.get("tn");
 
 // The only valid tracking number
-const VALID_TRACKING = "EC-2026-839304";
+const VALID_TRACKING = "EC2026839304";
 
 // Shipment data for the valid number
 const shipmentData = {
